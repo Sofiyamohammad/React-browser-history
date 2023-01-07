@@ -1,0 +1,54 @@
+.history-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+.hist-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.time-accessed {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.history-image {
+  height: 30px;
+  width: 30px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+.domain-url {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #64748b;
+  font-weight: 500;
+}
+.delete-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+}
+button {
+  height: 25px;
+  width: 25px;
+  border-style: none;
+  background-color: transparent;
+  margin-left: 100px;
+  margin-right: 20px;
+  cursor: pointer;
+  outline: none;
+}
